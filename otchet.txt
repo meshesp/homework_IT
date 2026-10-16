@@ -1,0 +1,32 @@
+Шаг 1:
+
+Создаем репозиторий командой git init, заранее перейдя в необходимую директорию командой cd 
+
+Алексей Свиридов@DESKTOP-STG7QB3 UCRT64 ~/Downloads (master)
+$ cd "C:\Users\Алексей Свиридов\OneDrive\Рабочий стол\mesh"
+
+Алексей Свиридов@DESKTOP-STG7QB3 UCRT64 ~/OneDrive/Рабочий стол/mesh
+$ git init
+Initialized empty Git repository in C:/Users/Алексей Свиридов/OneDrive/Рабочий стол/mesh/.git/
+
+Далее добавляем файл отчета и commit в текущую ветку:
+
+Алексей Свиридов@DESKTOP-STG7QB3 UCRT64 ~/OneDrive/Рабочий стол/mesh (master)
+$ git add otchet.txt
+
+Алексей Свиридов@DESKTOP-STG7QB3 UCRT64 ~/OneDrive/Рабочий стол/mesh (master)
+$ git commit -m "Первая версия отчета"
+[master (root-commit) 48332f9] Первая версия отчета
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 otchet.txt
+
+Создаем новую ветку командой 
+git checkout -b mesh1
+
+добавляем файл, чтобы наши изменения в нем сохранились в новой ветке и коммитим изменения
+
+
+
+
+ 
+
